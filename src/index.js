@@ -108,7 +108,6 @@ const sortChannels = (event) => {
   if (!sortedChannelsResult) return;
   renderChannels(sortedChannelsResult);
 
-  console.log("FILTER INPUT", filterInput, filterInput.value);
 
   if (filterInput && filterInput.value !== "") {
     filterContent(filterInput.value);
